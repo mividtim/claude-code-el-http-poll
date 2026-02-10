@@ -4,16 +4,17 @@ A community event source for [claude-code-event-listeners](https://github.com/mi
 
 ## Install
 
-```bash
-# One command — requires the el plugin
-/el:register https://raw.githubusercontent.com/mividtim/claude-code-el-http-poll/main/http-poll.sh
-
-# Or clone and register locally
-git clone https://github.com/mividtim/claude-code-el-http-poll.git
-/el:register ./claude-code-el-http-poll/http-poll.sh
+Via the mividtim marketplace (recommended):
+```
+Add "el-http-poll" from marketplace "mividtim" in your .claude/settings.json
 ```
 
-After registering, verify with `/el:list` — you should see `http-poll (user)`.
+Or register manually:
+```bash
+/el:register https://raw.githubusercontent.com/mividtim/claude-code-el-http-poll/main/sources.d/http-poll.sh
+```
+
+After installing, verify with `/el:list` — you should see `http-poll`.
 
 ## Usage
 

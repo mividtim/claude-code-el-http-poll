@@ -1,0 +1,12 @@
+{
+  "name": "el-http-poll",
+  "version": "1.0.0",
+  "description": "HTTP polling event source for claude-code-event-listeners. Wait for URLs to match expected status and body content.",
+  "author": {
+    "name": "Tim Garthwaite",
+    "url": "https://github.com/mividtim"
+  },
+  "repository": "https://github.com/mividtim/claude-code-el-http-poll",
+  "license": "MIT",
+  "keywords": ["el", "event-source", "http", "poll", "health-check", "deploy"]
+}
